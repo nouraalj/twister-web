@@ -1,0 +1,58 @@
+.leftbar{
+    flex: 2;
+    background-color: #aac7aa;
+    top: 70px;
+    height: calc(100vh- 70px);
+    width: 100%;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: sticky;
+    margin: 0;
+    
+    
+} 
+.leftbar::webkit-scrollbar{
+    display: none;
+}
+.contenu{
+    height: calc(100vh- 70px);
+
+    padding: 20px;
+}
+.contenu span{
+    color:rgb(32, 58, 42);
+}
+.menu{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.user{
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+.user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.utilities{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.utilities img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.contenu.menu.utilities span{
+    font-size: 14px;
+}

@@ -1,0 +1,89 @@
+.rightbar{
+    flex: 3;
+    position: sticky ;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+}
+.rightbar::webkit-scrollbar{
+    display: none;
+}
+.contenu2 {
+    padding: 10px;
+}
+.items{
+    padding: 20px;
+    background-color: rgb(196, 202, 194);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.items span{
+    color: rgb(32, 58, 42);
+}
+.blocSuggestion span{
+    font-size: large;
+    font-weight: bold;
+}
+.users{
+    display: flex;
+    align-items: center;
+    
+    margin: 20px 0px;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;justify-content:space-around;
+}
+.users img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.rightbar.user.userInfo img{
+    font-weight: 500;
+
+}
+.users.buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.buttons button{
+    margin-left: 5px;
+    border: none;
+    background-color: white;
+    border-radius:5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight:bold;
+    color: #86b386;
+}
+
+.buttons button:hover{
+    color:#517951;
+}
+
+.trendingTwist{
+    display: flex;
+    margin: 20px 0px;
+}
+.trendingTwist span{
+
+    font-weight: bold;}
+.twistStats span{
+    color: #86b386;
+}
+
+.items hr{
+    margin: 20px 0;
+    border: 0.05px solid rgb(71, 129, 93);
+}

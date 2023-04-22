@@ -1,0 +1,10 @@
+.twists{
+    display: flex;
+    flex-direction: column;
+    border-top: solid;
+    border-top-width: thin;
+    border-top-color: rgb(177, 171, 171);
+    margin-left:  10px;
+
+    
+}

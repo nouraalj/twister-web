@@ -1,0 +1,47 @@
+.postTwist{
+    margin-left: 10px;
+}
+.contenu4{
+    background-color: rgba(255, 255, 255, 0.753);
+    padding-bottom: 10px;
+    justify-content: baseline;
+}
+.contenu4 form{
+   align-items: baseline;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.contenu4 textarea{
+    resize: none;
+    width: 85%;
+    height: 5em;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.tweet-box-actions{
+    justify-content:end;
+    display: flex;    
+    margin-right: 10px;
+    gap: 10px;
+
+}
+.contenu4 button{ 
+    width: 10%;
+    border: none;
+    background-color: white;
+    border-radius:5px;
+    font-weight:bold;
+    color: #86b386;
+    padding: 5px;
+    cursor: pointer;
+}
+.contenu4 button:hover{ 
+    color:#517951;
+
+}

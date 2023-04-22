@@ -1,0 +1,53 @@
+.comments img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.comment{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoCommentUser{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.infoCommentUser p{
+    font-weight: 500;
+}
+
+.writeComment{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 20px 0px;
+}
+
+.writeComment input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.writeComment input:focus{
+    outline: none;
+}
+.writeComment button{
+    border: none;
+    background-color: white;
+    border-radius:5px;
+    font-weight:bold;
+    color: #86b386;
+    padding: 5px;
+    cursor: pointer;
+}
+.writeComment  button:hover{
+    color:#517951;
+}
